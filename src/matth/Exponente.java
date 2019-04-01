@@ -3,33 +3,33 @@ package matth;
 public class Exponente {
     
 	//numerador del exponente fraccionario
-	private int a;
+	private Integer a;
 	//denominador del exponente fraccionario
-	private int b;
+	private Integer b;
 	//double de un exponente 
-	private double c;
+	private Double c;
 	//exponente fraccionario
 	public Exponente(int A,int B)
 	{
-		a=A;
-		b=B;
+		a=new Integer(A);
+		b=new Integer(B);
 	}
 	//exponente decimal
 	public Exponente(double C)
 	{
-		c=C;
+		c=new Double(C);
 	}
 	
-	public int darA()
+	public Integer darA()
 	{
 		return a;
 	}
 	
-	public int darB()
+	public Integer darB()
 	{
 		return b;
 	}
-	public double darC()
+	public Double darC()
 	{
 		return c;
 	}
